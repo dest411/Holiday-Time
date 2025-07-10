@@ -62,12 +62,21 @@
             <div class="form">
                 <p>Зворотній зв’язок</p>
                 <form action="">
-                    <label for="">Ім'я</label>
-                    <input type="text">
+                    <div class="name">
+                        <label for="name">Ім'я</label>
+                        <input type="text" id="name" placeholder="Введіть ім'я" required>  
+                    </div>
+                    <div class="number">
+                        <label for="phone">Номер телефону</label>
+                        <input type="tel" id="phone" placeholder="Введіть номер телефону" required> 
+                    </div>
+                    
 
-                    <label for="">Номер телефону</label>
-                    <input type="number">
+                    
+
+                    
                 </form>
+                <button type="submit">Запросити виклик</button>
             </div>
         </div>
     </div>
