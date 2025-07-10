@@ -75,6 +75,7 @@ nav ul li a{
     display: flex;
     flex-direction: column;
     gap: 50px;
+    margin-bottom: 50px;
 }
 
 .firstphoto{
@@ -168,3 +169,26 @@ nav ul li a{
     right: 20px;
     cursor: pointer;
 }
+/* THIRD PHOTO */
+.thirdphoto{
+    background-color: #C1C1C3;
+    display: flex;
+    gap: 10px;
+    padding: 30px 60px;
+    
+}
+.thirdphoto img{
+    width: 60%;
+}
+.thirdphoto p{
+    display: flex;
+    width: 40%;
+    height: auto;
+    background-color: #EAEAEB;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: rgba(32, 40, 70, 1);
+    font-size: 20px;
+}
+
