@@ -203,6 +203,7 @@ nav ul li a{
     padding: 0px;
     gap: 20px;
     padding: 20px 0 0 0;
+    position: relative;
 }
 .form form{
     display: flex;
@@ -229,4 +230,25 @@ nav ul li a{
     color: white;
     font-size: 20px;
     justify-content: center;
+}
+
+/* FOOTER */
+footer{
+    width: 100%;
+    padding: 25px;
+    background-color: rgba(32, 40, 70, 1);
+}
+footer p{
+    font-size: 20px;
+    margin-left: 5%;
+}
+.arrowback{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background-color: rgba(85, 87, 104, 0.62);
+    padding: 20px;
+    border-radius: 50%;
+    top: 30%;
+    right: -118%;
 }
