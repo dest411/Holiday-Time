@@ -15,16 +15,21 @@ header{
     align-items: center;
     position: relative;
 }
+
 .changelanguage{
-    display: flex;
+    display: none;
     flex-direction: column;
     position: absolute;
     right: 3px;
-    bottom: -90px;
+    bottom: -110px;
     background-color: rgba(32, 40, 70, 1);
-    padding: 7px;
+    /* padding: 7px; */
     font-weight: bold;
     gap: 3px;
+}
+.changelanguage p{
+    width: 100%;
+    padding: 5px;
 }
 .changelanguage p.active {
     background-color: rgba(196, 196, 196, 0.1);/* світло-сірий фон */
