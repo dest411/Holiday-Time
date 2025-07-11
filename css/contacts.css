@@ -1,13 +1,16 @@
 .hero--contacts{
-    width: 60%;
+    width: 65%;
     height: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 50px;
     color: rgba(32, 40, 70, 1);
     font-size: 25px;
     
+}
+.hero--contacts h4{
+    border-bottom: 2px solid rgba(32, 40, 70, 1);
 }
 .firstline{
     justify-content: space-between;
@@ -20,5 +23,16 @@
     gap: 10px;
 }
 .number--line h4{
-    border-bottom: 2px solid rgba(32, 40, 70, 1);
+    border-bottom: 2px slid rgba(32, 40, 70, 1);
+}
+.secondline{
+    display: flex;
+    justify-content: space-between
+    
+}
+.p2line{
+    text-align: center;
+}
+.adress h4{
+    margin-top: 40px;
 }

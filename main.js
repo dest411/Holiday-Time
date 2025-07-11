@@ -27,3 +27,9 @@ document.addEventListener("DOMContentLoaded", function () {
             changelanguage.style.display = 'none';
         }
     }
+
+const arrow = document.querySelector('.arrowback');
+
+  arrow.addEventListener('click', () => {
+    document.getElementById('top').scrollIntoView({ behavior: 'smooth' });
+  });
