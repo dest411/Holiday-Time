@@ -1,0 +1,38 @@
+.hero--personalacc{
+    background-color: rgba(189, 189, 198, 1);
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    
+    gap: 20px;
+    margin-bottom: 80px;
+    padding: 50px 100px;
+}
+.avatar{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+    margin-right: 100px;
+    align-items: center;
+}
+.avatar img{
+    width: 200px;
+}
+.avatar button{
+    padding: 10px 40px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    align-items: center;
+    display: flex;
+}
+.changeav{
+    background-color: rgba(105, 116, 155, 1);
+    color: rgba(255, 255, 255, 1);
+}
+.settings{
+    background-color: rgba(72, 74, 84, 1);
+    color: rgba(255, 255, 255, 1);
+}
