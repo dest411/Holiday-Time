@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/firstparth.css">
+    <link rel="stylesheet" href="css/aboutus.css">
+    <link rel="stylesheet" href="css/contacts.css">
+    <title>Holiday Time</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+                <div class="logo">
+                   <img src="./img/logo.svg" alt="logo">
+                </div>
+                
+                <nav>
+                    <ul>
+                        <li><a href="index.html">ГОЛОВНА</a></li>
+                        <li><a href="aboutus.html">ПРО НАС</a></li>
+                        <li><a href="#">ЗАБРОНЮВАТИ</a></li>
+                        <li><a href="contacts.html">КОНТАКТИ</a></li>
+                        <li><a href="#">ОСОБИСТИЙ <br> КАБІНЕТ</a></li>
+                        
+                        <li class="lang-switch">
+                            <a href="#">
+                                <img src="./img/language.svg" alt="Мова">
+                                <span class="UA" onclick="togglemenu(document.querySelector('.changelanguage'))" >UA</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="changelanguage">
+                    <p class="active" >UA</p>
+                    <p>RU</p>
+                    <p>EN</p> 
+                </div>
+                
+        </div>
+    </header>
+    <div class="hero--aboutus">
+        <p class="pab" >Контакти</p>
+        <div class="hero--contacts">
+            <div class="firstline">
+                <div class="number--line">
+                    <h4>Телефон</h4>
+                    <p>+38(097)119-89-83</p>
+                </div>
+                <div class="number--line">
+                    <h4>Графік роботи</h4>
+                    <p>пн-пт 08:00-22:00 <br> сб 09:00-21:00 <br> вс 10:00-20:00</p>
+                </div>
+                <div class="number--line">
+                    <h4>Ел. пошта</h4>
+                    <p>hello@gmail.com</p>
+                </div>
+
+                
+            </div>
+            <div class="secondline"></div>
+        </div>
+        
+    </div>
+    <footer>
+        <p>© 2021 HolidayTime. All rights reserved.</p>
+    </footer>
+    <script src="main.js" ></script>
+</body>
+</html>

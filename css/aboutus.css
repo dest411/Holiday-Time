@@ -29,6 +29,7 @@
     align-items: center;
     padding: 40px;
     text-align: center;
+    gap: 20px;
 }
 .aboutus-container p{
     font-style: italic;

@@ -1,0 +1,24 @@
+.hero--contacts{
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: rgba(32, 40, 70, 1);
+    font-size: 25px;
+    
+}
+.firstline{
+    justify-content: space-between;
+    margin-top: 50px;
+    display: flex;
+}
+.number--line{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.number--line h4{
+    border-bottom: 2px solid rgba(32, 40, 70, 1);
+}
