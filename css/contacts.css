@@ -27,8 +27,8 @@
 }
 .secondline{
     display: flex;
-    justify-content: space-between
-    
+    justify-content: space-between;
+    margin-bottom: 50px;
 }
 .p2line{
     text-align: center;
