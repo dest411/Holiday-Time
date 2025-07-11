@@ -4,17 +4,16 @@
     height: 100%;
     margin: 0 auto;
     display: flex;
-    
-    gap: 20px;
-    margin-bottom: 80px;
+    /* gap: 20px; */
+    margin-bottom: 40px;
     padding: 50px 80px;
+    justify-content: space-between;
 }
 .avatar{
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 30%;
-    margin-right: 100px;
     align-items: center;
 }
 .avatar img{
@@ -64,4 +63,17 @@
 }
 .hero--personalacc h3{
     font-style: italic;
+}
+.buttonexit{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.exit{
+    background-color: rgba(32, 40, 70, 1);
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
 }
