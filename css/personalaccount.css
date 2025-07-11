@@ -1,13 +1,13 @@
 .hero--personalacc{
     background-color: rgba(189, 189, 198, 1);
-    width: 50%;
+    width: 55%;
     height: 100%;
     margin: 0 auto;
     display: flex;
     
     gap: 20px;
     margin-bottom: 80px;
-    padding: 50px 100px;
+    padding: 50px 80px;
 }
 .avatar{
     display: flex;
@@ -18,13 +18,14 @@
     align-items: center;
 }
 .avatar img{
-    width: 200px;
+    width: 190px;
+    height: 190px;
 }
 .avatar button{
     padding: 10px 40px;
     border: none;
     border-radius: 30px;
-    font-size: 18px;
+    font-size: 17px;
     align-items: center;
     display: flex;
 }
@@ -35,4 +36,32 @@
 .settings{
     background-color: rgba(72, 74, 84, 1);
     color: rgba(255, 255, 255, 1);
+}
+.acc-info{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+}
+.acc-name,
+.acc-sex,
+.acc-birthday,
+.acc-number,
+.acc-email{
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    /* background-color: blanchedalmond; */
+    gap: 7px;
+    color: rgba(53, 60, 87, 1);
+}
+.acc-name,
+.acc-sex,
+.acc-birthday,
+.acc-number{
+    border-bottom: 2px solid white;
+}
+.hero--personalacc h3{
+    font-style: italic;
 }
