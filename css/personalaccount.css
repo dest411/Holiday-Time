@@ -27,10 +27,12 @@
     font-size: 17px;
     align-items: center;
     display: flex;
+    cursor: pointer;
 }
 .changeav{
     background-color: rgba(105, 116, 155, 1);
     color: rgba(255, 255, 255, 1);
+
 }
 .settings{
     background-color: rgba(72, 74, 84, 1);
@@ -76,4 +78,5 @@
     border: none;
     border-radius: 50px;
     font-size: 20px;
+    cursor: pointer;
 }
