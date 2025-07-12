@@ -48,8 +48,15 @@
         <div class="hero-reservation">
             <div class="selectcity">
                 <p>Оберіть місцерозташування</p>
-                <img src="./img/ptichka.svg" alt="птичка">
+                <img class="ptchk" onclick="toggleselect(document.querySelector('.selectcitynone'))" src="./img/ptichka.svg" alt="птичка">
+                <div class="selectcitynone">
+                    <p>Бакота</p>
+                    <p>Карпати</p>
+                    <p>Київ</p>
+                    <p>Одеська область</p>
+                </div>
             </div>
+            
             <div class="types-of-houses">
                 <div class="firsthouse">
                     <img class="star"  src="./img/star.svg" alt="star">
