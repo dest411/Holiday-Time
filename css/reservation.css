@@ -27,6 +27,7 @@
     background-color: rgba(189, 189, 198, 1);
     padding: 40px 60px;
     justify-content: space-between;
+    position: relative;
 }
 
 .info-about-firsthouse{
@@ -48,4 +49,27 @@
     text-align: center;
     padding: 46px 40px;
     font-size: 18px;
+}
+.btn2{
+    display: flex;
+    position: absolute;
+    background-color: rgba(32, 40, 70, 1);
+    color: white;
+    align-items: center;
+    padding: 15px 35px;
+    gap: 20px;
+    /* height: 70px; */
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    bottom: 15px;
+    right: -60px;
+}
+.star{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
 }
