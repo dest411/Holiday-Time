@@ -21,13 +21,31 @@
     position: absolute;
     right: 20px;
 }
-/* .header-container{
-    width: 95%;
-    height: 100%;
-    margin: 0 auto;
-    padding: 10px 0;
+
+.firsthouse{
     display: flex;
+    background-color: rgba(189, 189, 198, 1);
+    padding: 40px 60px;
     justify-content: space-between;
-    align-items: center;
-    position: relative;
-} */
+}
+
+.info-about-firsthouse{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.info-about-firsthouse h3{
+    font-size: 30px;
+    font-style: italic;
+    color: rgba(53, 60, 87, 1);
+    border-bottom: 2px solid white ;
+    padding-bottom: 5px;
+}
+.info-about-firsthouse p{
+    background-color: rgba(215, 215, 221, 1);
+    color: rgba(53, 60, 87, 1);
+    text-align: center;
+    padding: 46px 40px;
+    font-size: 18px;
+}
