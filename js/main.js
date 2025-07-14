@@ -18,18 +18,5 @@ document.addEventListener("DOMContentLoaded", function () {
     
     });
     
-    function togglemenu(changelanguage) {
-        const value = window.getComputedStyle(changelanguage).display;
-        if (value === 'none'){
-            changelanguage.style.display = 'flex';
-        }
-        if (value === 'flex'){
-            changelanguage.style.display = 'none';
-        }
-    }
+    
 
-const arrow = document.querySelector('.arrowback');
-
-  arrow.addEventListener('click', () => {
-    document.getElementById('top').scrollIntoView({ behavior: 'smooth' });
-  });
