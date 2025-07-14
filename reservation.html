@@ -27,9 +27,11 @@
                         <li><a href="personalaccount.html">ОСОБИСТИЙ <br> КАБІНЕТ</a></li>
                         
                         <li class="lang-switch">
-                            <a href="">
+                            <a href="#" onclick="event.preventDefault();">
+
                                 <img src="./img/language.svg" alt="Мова">
-                                <span class="UA" onclick="togglemenu(document.querySelector('.changelanguage'))">UA</span>
+                                <span class="UA" onclick="event.preventDefault(); togglemenu();">UA</span>
+
                             </a>
                         </li>
                     </ul>
@@ -115,6 +117,6 @@
     </footer>
     <script src="./js/changelanguage.js"></script>
     <script src="./js/main.js" ></script>
-    <script src="reservation.js" ></script>
+    <script src="./js/reservation.js" ></script>
 </body>
 </html>

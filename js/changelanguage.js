@@ -1,9 +1,4 @@
-function togglemenu(changelanguage) {
-        const value = window.getComputedStyle(changelanguage).display;
-        if (value === 'none'){
-            changelanguage.style.display = 'flex';
-        }
-        if (value === 'flex'){
-            changelanguage.style.display = 'none';
-        }
-    }
+function togglemenu() {
+    const menu = document.querySelector('.changelanguage');
+    menu.classList.toggle('open');
+}
