@@ -75,5 +75,8 @@
     margin-top: 10px;
 }
 .checkSit{
-    
+    background-color: rgba(43, 54, 92, 1);
+    color: white;
+    padding: 20px 40px;
+    font-size: 29px;
 }
