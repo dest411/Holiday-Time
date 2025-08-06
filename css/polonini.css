@@ -19,6 +19,14 @@
     flex-direction: column;
     gap: 5px;
 }
+.photoright p {
+    display: flex;
+    background-color: rgba(199, 199, 199, 1);
+    color: black;
+    padding: 20px 40px;
+    justify-content: center;
+    font-size: 29px;
+}
 .photorightddd{
     display: flex;
     gap: 5px;
