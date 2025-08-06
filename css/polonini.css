@@ -81,4 +81,22 @@
     padding: 30px 50px;
     font-size: 29px;
     margin-left: 50px;
+    cursor: pointer;
+}
+.filterstwo{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.num1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.num1 input{
+    width: 30px;
+    height: 60px;
+    border: 3px solid silver;
+    padding: 0 20px;
+    font-size: 30px;
 }
