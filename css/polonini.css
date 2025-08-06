@@ -33,3 +33,24 @@
     align-items:flex-end;
     justify-content: center;
 }
+.button{
+    display: flex;
+    background-color: rgba(32, 40, 70, 1);
+    color: white;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+    left: -50px;
+    position: relative;
+    cursor: pointer;
+}
+.resmore h1{
+    color: rgba(32, 40, 70, 1);
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+/* FILTERS */
