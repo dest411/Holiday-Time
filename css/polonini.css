@@ -59,6 +59,7 @@
     color: black;
     font-size: 29px;
     background-color: rgba(206, 206, 216, 1);
+    justify-content: space-around;
 }
 .filtersone{
     display: flex;
@@ -69,7 +70,7 @@
 .filtersone input{
     width: 300px;
     height: 60px;
-    border: 2px solid silver;
+    border: 3px solid silver;
     padding: 0 20px;
     font-size: 20px;
     margin-top: 10px;
@@ -77,6 +78,7 @@
 .checkSit{
     background-color: rgba(43, 54, 92, 1);
     color: white;
-    padding: 20px 40px;
+    padding: 30px 50px;
     font-size: 29px;
+    margin-left: 50px;
 }
