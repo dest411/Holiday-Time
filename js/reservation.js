@@ -4,6 +4,7 @@ const arrow2 = document.querySelector('.arrowbacktwo');
     document.getElementById('toptwo').scrollIntoView({ behavior: 'smooth' });
   });
   
+  
 function toggleselect(selectcitynone) {
     const value = window.getComputedStyle(selectcitynone).display;
 

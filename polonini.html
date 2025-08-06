@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/firstparth.css">
+    <link rel="stylesheet" href="css/aboutus.css">
+    <link rel="stylesheet" href="css/reservation.css">
+    <link rel="stylesheet" href="css/polonini.css">
+
+    <title>Holiday Time</title>
+</head>
+<body>
+    <div id="toptwo"></div>
+    <header>
+        <div class="header-container">
+                <div class="logo">
+                   <img src="./img/logo.svg" alt="logo">
+                </div>
+                
+                <nav>
+                    <ul>
+                        <li><a href="index.html">ГОЛОВНА</a></li>
+                        <li><a href="aboutus.html">ПРО НАС</a></li>
+                        <li><a href="reservation.html">ЗАБРОНЮВАТИ</a></li>
+                        <li><a href="contacts.html">КОНТАКТИ</a></li>
+                        <li><a href="personalaccount.html">ОСОБИСТИЙ <br> КАБІНЕТ</a></li>
+                        
+                        <li class="lang-switch">
+                            <a href="#" onclick="event.preventDefault();">
+
+                                <img src="./img/language.svg" alt="Мова">
+                                <span class="UA" onclick="togglemenu(document.querySelector('.changelanguage'))">UA</span>
+
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="changelanguage">
+                    <p class="active">UA</p>
+                    <p>RU</p>
+                    <p>EN</p> 
+                </div>
+                
+        </div>
+    </header>
+    <div class="hero--polonini">
+        <p class="pab" >Бронювання будиночка в Карпатах</p>
+        <div class="resmore">
+            <button>Назад</button>
+        </div>
+    <img class="arrowbacktwo" src="./img/Arrow 2.svg" alt="">
+    </div>
+    <footer>
+        <p>© 2021 HolidayTime. All rights reserved.</p>
+    </footer>
+    <script src="./js/changelanguage.js"></script>
+    <script src="./js/main.js" ></script>
+    <script src="./js/reservation.js" ></script>
+</body>
+</html>

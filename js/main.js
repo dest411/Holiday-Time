@@ -20,3 +20,6 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
 
+ document.getElementById("myBtn").onclick = function () {
+    location.href = "polonini.html";
+  };

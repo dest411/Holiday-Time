@@ -30,7 +30,7 @@
                             <a href="#" onclick="event.preventDefault();">
 
                                 <img src="./img/language.svg" alt="Мова">
-                                <span class="UA" onclick="event.preventDefault(); togglemenu();">UA</span>
+                                <span class="UA" onclick="togglemenu(document.querySelector('.changelanguage'))">UA</span>
 
                             </a>
                         </li>
@@ -45,7 +45,7 @@
         </div>
     </header>
     <div class="hero--aboutus">
-        <p class="pab" >Бронювання будиночка в Карпатах</p>
+        <p class="pab" >Забронювати будиночок</p>
         
         <div class="hero-reservation">
             <div class="selectcity">
@@ -74,7 +74,7 @@
                 </div>
                 <div class="firsthouse">
                     <img class="star"  src="./img/star.svg" alt="star">
-                    <button class="btn2">Детальніше</button>
+                    <button id="myBtn" onclick="location.href='polonini.html'"  class="btn2">Детальніше</button>
                     <img src="./img/2house.svg" alt="">
                     <div class="info-about-firsthouse">
                         <h3>Полонини Карпат </h3>
