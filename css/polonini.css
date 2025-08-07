@@ -122,59 +122,78 @@
 
 .typeOfFilters{
     width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    background-color: rgba(207, 207, 209, 1);
+    height: 280px;
     font-size: 32px;
     font-style: italic;
+    box-sizing: border-box;
 }
-.countPlaces{
+
+.spans{
+    display: flex;
+    width: 100%;
+}
+.span1, .span2, .span3{
+    background-color: rgba(76, 83, 107, 1);
+    padding: 15px 30px;
+}
+.span1{
     width: 15%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.typePlaces{
-    width: 55%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.valuePlaces{
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-}
-.span{
-    display: flex;
-    background-color: rgba(76, 83, 107, 1);
-    padding: 15px;
+    align-items: center;
     justify-content: center;
-    border-radius: 2px solid black;
+    border-right: 3px solid rgba(143, 152, 185, 1);
 }
 .span2{
+    width: 65%;
     display: flex;
-    background-color: rgba(76, 83, 107, 1);
-    padding: 15px;
-    justify-content: center;
-    border-radius: 2px solid black;
+    align-items: center;
+    justify-content: flex-start;
+    border-right: 3px solid rgba(143, 152, 185, 1);
 }
-.spanImg{
-    padding: 50px;
+.span3{
+    width: 20%;
     display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.afterSpans{
+    width: 100%;
+    display: flex;
+    height: 200px;
+}
+.span1Info, .span2Info, .span3Info{
+    background-color: rgba(207, 207, 209, 1);
+    padding: 15px 30px;
+}
+.span1Info{
+    width: 15%;
+    border-right: 3px solid rgba(143, 152, 185, 1);
+    display: flex;
+    align-items: center;
     justify-content: center;
     gap: 10px;
-    height: 70%;
-
 }
 .span2Info{
+    width: 65%;
+    border-right: 3px solid rgba(143, 152, 185, 1);
     display: flex;
     flex-direction: column;
-    height: 70%;
+    padding: 30px;
+    color: black;
+    gap: 10px;
+    justify-content: center;
 }
-.span, .span2, .span3{
-    
-    height: 30%;
+.span3Info{
+    display: flex;
+    width: 20%;
+    align-items: center;
+}
+.showPrice{
+    background-color: rgba(104, 123, 192, 1);
+    color: white;
+    font-size: 32px;
+    padding: 15px 30px;
+    border: none;
 }
