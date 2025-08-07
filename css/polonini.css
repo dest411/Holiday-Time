@@ -60,6 +60,7 @@
     font-size: 29px;
     background-color: rgba(206, 206, 216, 1);
     justify-content: space-around;
+    position: relative;
 }
 .filtersone{
     display: flex;
@@ -99,4 +100,20 @@
     border: 3px solid silver;
     padding: 0 20px;
     font-size: 30px;
+}
+.arrowbacktwoo{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background-color: rgba(85, 87, 104, 0.62);
+    padding: 20px;
+    border-radius: 50%;
+    right: -180px;
+    top: 40%;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.arrowbacktwoo:hover{
+    transform: scale(1.1);
 }

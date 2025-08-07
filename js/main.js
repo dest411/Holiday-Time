@@ -23,3 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
  document.getElementById("myBtn").onclick = function () {
     location.href = "polonini.html";
   };
+
+   document.getElementById("myBtn2").onclick = function () {
+    location.href = "reservation.html";
+  };
