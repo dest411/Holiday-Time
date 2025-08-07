@@ -170,6 +170,7 @@
 .span1Info{
     width: 15%;
     border-right: 3px solid rgba(143, 152, 185, 1);
+    border-bottom: 3px solid rgba(143, 152, 185, 1);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -178,6 +179,7 @@
 .span2Info{
     width: 65%;
     border-right: 3px solid rgba(143, 152, 185, 1);
+    border-bottom: 3px solid rgba(143, 152, 185, 1);
     display: flex;
     flex-direction: column;
     padding: 30px;
@@ -189,11 +191,16 @@
     display: flex;
     width: 20%;
     align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid rgba(143, 152, 185, 1);
 }
 .showPrice{
     background-color: rgba(104, 123, 192, 1);
+    
     color: white;
-    font-size: 32px;
+    font-size: 30px;
     padding: 15px 30px;
     border: none;
+    font-style: italic;
+    font-weight: 100;
 }
